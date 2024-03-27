@@ -7,7 +7,7 @@ PartOf=aos.target
 
 [Service]
 Type=notify
-ExecStart=/usr/bin/aos_iamanager -c /etc/aos/aos_iamanager.cfg -provisioning -v debug -j
+ExecStart=/usr/bin/aos_iamanager -c /etc/aos/aos_iamanager.cfg -provisioning -l debug -j
 Restart=always
 RestartSec=10
 
